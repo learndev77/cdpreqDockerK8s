@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+
+  accounts:
+    image: learndev77/accounts:latest
+    mem_limit: 700m
+    ports:
+      - "8080:8080"
+    networks:
+      - globalbank-network
+    
+  loans:
+    image: learndev77/loans:latest
+    mem_limit: 700m
+    ports:
+      - "8090:8090"
+    networks:
+      - globalbank-network
+    
+networks:
+  globalbank-network:

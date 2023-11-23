@@ -1,0 +1,9 @@
+1. Create cards microservice
+2. Screenshot of (docker images)
+3. Screenshot of (docker ps)[container]
+4. Screenshot docker hub [cards]
+5. update docker-compose.yml (include cards)
+6. screenshot postman '/myCards' - list of cards by customer id
+7. Choose best presentation pdf
+
+before 9AM next meeting - 30 points
